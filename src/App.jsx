@@ -79,7 +79,7 @@ function App() {
             <div className="col-lg-2 col-md-3 col-sm-4">
               <div className="site-logo">
                 <a href="index.html">
-                  <img src="./src/assets/img/logo.png" alt="" />
+                  <img src="./src/assets/img/logo.png" alt="NO image" />
                 </a>
               </div>
             </div>
@@ -404,7 +404,7 @@ function App() {
               </div>
               <div className="partner">
                 <a href="#">
-                  <img src="./src/assets/img/brands/1.svg" alt="image" />
+                  <img src="./src/assets/img/brands/1.svg" alt="NO image" />
                 </a>
                 {/* Additional partner logos */}
               </div>
@@ -476,7 +476,7 @@ function App() {
                   <img
                     src="./src/assets/img/portfolio/1.jpg"
                     className="img-fluid"
-                    alt=""
+                    alt="NO image"
                   />
                   <p>
                     POS (Point of Sale) website streamlines sales transactions,
