@@ -1,6 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import ContactUs from "./components/ContactUs";
 import Logo from "./assets/img/logo.png";
+import image_2 from "./assets/img/4925142_c0ab.jpg";
+import image_3 from "./assets/img/brands/1.svg";
+import portfolio from "./assets/img/portfolio/1.jpg";
+import skills from "./assets/img/skills.png";
+import contact from "./assets/img/contact.png";
+import preview from "./assets/img/preview.png";
 
 function App() {
   const [openNav, setOpenNav] = useState(false);
@@ -235,7 +241,7 @@ function App() {
             <div className="col-lg-6 col-sm-6 col-xs-12">
               <div className="hero_img">
                 <img
-                  src="./src/assets/img/preview.png"
+                  src={preview}
                   height={"300px"}
                   width={"400px"}
                   className="img-fluid"
@@ -262,7 +268,7 @@ function App() {
             >
               <div className="about_img">
                 <img
-                  src="./src/assets/img/4925142_c0ab.jpg"
+                  src={image_2}
                   className="img-fluid"
                   alt="profile-picture"
                 />
@@ -405,7 +411,7 @@ function App() {
               </div>
               <div className="partner">
                 <a href="#">
-                  <img src="./src/assets/img/brands/1.svg" alt="NO image" />
+                  <img src={image_3} alt="NO image" />
                 </a>
                 {/* Additional partner logos */}
               </div>
@@ -431,7 +437,7 @@ function App() {
               <div className="single_portfolio_design">
                 <div className="port_img">
                   <img
-                    src="./src/assets/img/portfolio/1.jpg"
+                    src={portfolio}
                     className="img-fluid"
                     alt="Work Image"
                   />
@@ -475,7 +481,7 @@ function App() {
                 </div>
                 <div className="modal-body">
                   <img
-                    src="./src/assets/img/portfolio/1.jpg"
+                    src={portfolio}
                     className="img-fluid"
                     alt="NO image"
                   />
@@ -516,7 +522,7 @@ function App() {
           <div className="row">
             <div className="col-lg-6">
               <img
-                src="./src/assets/img/skills.png"
+                src={skills}
                 className="img-fluid"
                 alt="Skills"
               />
@@ -569,7 +575,7 @@ function App() {
             >
               <div className="contact_img">
                 <img
-                  src="./src/assets/img/contact.png"
+                  src={contact}
                   className="img-fluid"
                   alt="Contact"
                 />
