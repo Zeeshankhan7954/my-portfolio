@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import ContactUs from "./components/ContactUs";
+import Logo from "./assets/img/logo.png";
 
 function App() {
   const [openNav, setOpenNav] = useState(false);
@@ -79,7 +80,7 @@ function App() {
             <div className="col-lg-2 col-md-3 col-sm-4">
               <div className="site-logo">
                 <a href="index.html">
-                  <img src="./src/assets/img/logo.png" alt="NO image" />
+                  <img src={Logo} alt="Logo image" />
                 </a>
               </div>
             </div>
